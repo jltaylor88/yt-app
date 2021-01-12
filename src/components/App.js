@@ -7,7 +7,7 @@ import VideoDetail from "./VideoDetail";
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
   componentDidMount() {
-    this.onTermSubmit("tekken king");
+    this.onTermSubmit("Tekken");
   }
 
   onTermSubmit = async (term) => {
